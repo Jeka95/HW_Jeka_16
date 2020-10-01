@@ -1,0 +1,119 @@
+body {
+	background-color: #121212;
+}
+.calendar {
+	border: 5px solid red;
+	margin: 50px auto 100px;
+	max-width: 400px;
+	box-shadow: 2px -3px 63px 8px rgba(237,0,0,1);
+	border-radius: 50px;
+}
+
+.clock {
+	font-family: 'Orbitron', sans-serif;
+	color: green;
+	font-size: 56px;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 40px;
+	font-family: 'Architects Daughter', cursive;
+}
+
+.year {
+	font-family: 'Orbitron', sans-serif;
+	color: green;
+	font-size: 56px;
+	text-align: center;
+	padding-top: 40px;
+	font-family: 'Architects Daughter', cursive;
+
+}
+
+
+
+.wraper_stopwatch {
+	display: flex;
+	border: 1px solid red;
+	align-items: center;
+	box-shadow: 2px -3px 63px 8px rgba(237,0,0,1);
+	justify-content: space-between;
+	
+	padding-right: 300px;
+	padding-left: 40px;
+
+}
+.stopwatch_1 {
+	
+	color: green;
+	font-size: 56px;
+	text-align: center;
+	padding-top: 40px;
+	font-family: 'Architects Daughter', cursive;
+}
+
+button{
+	color: green;
+	text-align: center;
+	font-size: 25px;
+	font-family: 'Architects Daughter', cursive;
+	background-color: #121212;
+	border-radius: 20px;
+
+}
+
+
+
+
+.result {
+	min-height: 200px;
+	min-width: 200px;
+	color: green;
+	font-size: 25px;
+	text-align: center;
+	font-family: 'Architects Daughter', cursive;
+	border: 1px solid red;
+	padding: 0 50px;
+	border-radius: 25px;
+	list-style-type: none;
+}
+
+
+
+.timer_wraper {
+	border: 1px solid red;
+	box-shadow: 2px -3px 63px 8px rgba(237,0,0,1);
+	display: flex;
+	justify-content: space-between;
+	padding: 25px;
+	margin: 50px 0;
+
+}
+.set_time {
+	
+}
+.timestart {
+		color: green;
+	font-size: 56px;
+	text-align: center;
+	padding-top: 40px;
+	font-family: 'Architects Daughter', cursive;
+}
+.minut {
+		color: green;
+	font-size: 40px;
+	text-align: center;
+	padding-top: 40px;
+	font-family: 'Architects Daughter', cursive;
+}
+.reg_time {
+	font-size: 40px;
+}
+.timer {}
+
+.timer_timer {
+		color: green;
+	font-size: 56px;
+	text-align: center;
+	padding-top: 40px;
+	font-family: 'Architects Daughter', cursive;
+}
